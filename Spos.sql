@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[Spos]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY(1, 1), 
+    [SposId] VARCHAR(50) NOT NULL, 
+	[SposUrl] VARCHAR(MAX) NOT NULL
+)
